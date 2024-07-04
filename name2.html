@@ -3,13 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cyber Threats Awareness</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+        header {
+            background: linear-gradient(90deg, #2c3e50, #4a69bd);
+            color: #ecf0f1;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            background-color: #34495e;
+            padding: 1rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #4a69bd;
+            border-radius: 5px;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            line-height: 1.6;
+        }
+        .threat {
+            background-color: #2c3e50;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .threat:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            background-color: #34495e;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hellow World</h1>
-    <h2>Made a change</h2>
-    <h3>Maade a change again</h3>
-    <h4>Made a change again again</h4>
-    
+    <header>
+        <h1>Cyber Threats Awareness</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Types of Threats</a></li>
+            <li><a href="#">Prevention</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Understanding Cyber Threats</h2>
+        <p>Cyber threats are malicious attempts to damage or disrupt computer systems, networks, or digital devices. Being aware of these threats is crucial in our increasingly connected world.</p>
+        
+        <div class="threat">
+            <h3>Malware</h3>
+            <p>Malicious software designed to disrupt, damage, or gain unauthorized access to a computer system.</p>
+        </div>
+        
+        <div class="threat">
+            <h3>Phishing</h3>
+            <p>Deceptive attempts to obtain sensitive information by disguising as a trustworthy entity in electronic communication.</p>
+        </div>
+        
+        <div class="threat">
+            <h3>Ransomware</h3>
+            <p>A type of malware that threatens to publish the victim's data or perpetually block access to it unless a ransom is paid.</p>
+        </div>
+        
+        <div class="threat">
+            <h3>DDoS Attacks</h3>
+            <p>Distributed Denial of Service attacks attempt to disrupt normal traffic of a targeted server, service or network by overwhelming the target with a flood of Internet traffic.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cyber Threats Awareness. Stay safe online!</p>
+    </footer>
 </body>
 </html>
